@@ -1,7 +1,26 @@
 aid: avomd
 name: AvoMD
-description: AvoMD is a company surfaced as a portfolio company of 500-global and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  AvoMD (Avo) is a clinical AI platform that integrates directly with electronic
+  health record (EHR) systems to power AI copilots for healthcare workflows. It
+  combines EHR data with trusted clinical knowledge bases to support decision-making,
+  documentation, and care delivery across inpatient and outpatient settings. Avo's
+  product line includes Chart Assist, an AI Scribe for ambient clinical documentation,
+  and AI Consult, serving rural and small hospitals, large and mid-size hospitals,
+  and ambulatory care, in partnership with medical societies and knowledge partners.
+  The company is SOC 2 Type II compliant and backed by 500 Global.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://cdn.prod.website-files.com/66253d5f94bb460b0cd728ab/6685e04eadd662916a066c25_avoog.jpg
 url: https://raw.githubusercontent.com/api-evangelist/avomd/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +30,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Healthcare
+- Clinical Decision Support
+- Artificial Intelligence
+- Electronic Health Records
+- Medical
+- Clinical Documentation
+- Health IT
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -22,4 +48,23 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: https://avomd.io
+  url: https://www.avomd.com
+- type: About
+  url: https://www.avomd.com/about
+- type: Support
+  url: https://www.avomd.com/contact
+- type: TermsOfService
+  url: https://www.avomd.com/data-privacy#terms
+- type: PrivacyPolicy
+  url: https://www.avomd.com/data-privacy
+- type: Compliance
+  url: https://www.avomd.com/resources/avo-achieves-soc-ii-type-2-compliance
+- type: GitHubOrganization
+  url: https://github.com/avomd
+- type: DomainSecurity
+  url: security/avomd-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
